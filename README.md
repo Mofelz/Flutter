@@ -1,17 +1,41 @@
-# kakto
+# Практическая работа №1
+Тема: верстка макетов из Figma
+Цель работы: сверстать макеты из Figma
+Ход работы:
+# Первый макет
 
-A new Flutter project.
 
-## Getting Started
+![image](https://user-images.githubusercontent.com/93879842/192147778-0a34f0ac-3276-476f-8a91-9f64a046eb6f.png)
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-"# Flutter" 
+Здесь для использовал контейнер 400 на 340 для отображения голубого фона, позади человечика, ловящего кита (странный типок). Далее полукруглый вектор, совпадающий по цвету с остальным фоном, поэтому запариваться не пришлось. Потом также то той же схеме, контейнеры и так далее.
+
+
+
+# Второй макет
+
+
+
+![image](https://user-images.githubusercontent.com/93879842/192147845-b3bb5b75-f232-404a-85b5-365c5a95be49.png)
+
+
+
+
+На этой странице, из-за того, что у меня не получалось экспортировать первое изображение целиком, я разделил из на 2: желтый фон и человечик, писяющий с деревяшки.Но благодаря классу Stack, я наложил из друг на друга и получилось норм. Далее по той же схеме использовал Containers для отображения текса и кнопок.
+
+
+# Третий макет
+
+
+
+![image](https://user-images.githubusercontent.com/93879842/192147873-c387794b-5895-4b22-a68c-43d865d3f8a2.png)
+
+
+
+
+Данные макет основан на виджете Stack для возможности наложения верхней панели на контент при прокрутке. Верхний блок основывается на виджете Row(). Он включает в себя текст и кнопку. Кнопка включает в себя изображение. Для того чтобы кнопка была прозрачной использовались backgroundColor: Colors.transparent и shadowColor: Colors.transparent. Для создания верхней полосы прокрутки использовался виджет SingleChildScrollView. Для горизонтального прокручивания обозначено свойство scrollDirection со значением Axis.horizontal. Следующие пять блоков являются однотипными и имеют в совокупности возможность прокрутки. Часть блока с картинкой реализована через Container с цветом и вложенной картинкой. Основным шрифтом является PlusJakartaSans. Нижняя часть блока является Row(). Элемент слева является кнопкой с картинкой в виде сердца. Элемент справа является кнопкой с текстом.
+tri
+
+Вывод: в данной практической работе я научился верстать на языке программирования dart.
