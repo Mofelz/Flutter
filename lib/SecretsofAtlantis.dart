@@ -2,14 +2,14 @@ import 'dart:html';
 
 import 'package:flutter/material.dart';
 
-class Screen extends StatefulWidget {
-  const Screen({Key? key}) : super(key: key);
+class SecretsofAtlantis extends StatefulWidget {
+  const SecretsofAtlantis({Key? key}) : super(key: key);
 
   @override
-  State<Screen> createState() => _ScreenState();
+  State<SecretsofAtlantis> createState() => _SecretsofAtlantisState();
 }
 
-class _ScreenState extends State<Screen> {
+class _SecretsofAtlantisState extends State<SecretsofAtlantis> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(

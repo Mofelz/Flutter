@@ -2,14 +2,14 @@ import 'dart:html';
 
 import 'package:flutter/material.dart';
 
-class Screen3 extends StatefulWidget {
-  const Screen3({Key? key}) : super(key: key);
+class Medinow extends StatefulWidget {
+  const Medinow({Key? key}) : super(key: key);
 
   @override
-  State<Screen3> createState() => _Screen3State();
+  State<Medinow> createState() => _MedinowState();
 }
 
-class _Screen3State extends State<Screen3> {
+class _MedinowState extends State<Medinow> {
   @override
   Widget build(BuildContext context) {
     return Scaffold( 
