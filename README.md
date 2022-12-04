@@ -70,7 +70,7 @@
 
 Теперь при запуске программы у нас создастся база:
 
-![image](https://user-images.githubusercontent.com/93879842/205501110-e704f8ae-cb35-40be-bd03-b3a9785a1640.png)
+![image](https://user-images.githubusercontent.com/93879842/205501191-08df00c8-4324-4118-89d9-daa27d6cd773.png)
 
 Рисунок 19 - это база
 
