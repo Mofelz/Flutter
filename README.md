@@ -8,7 +8,7 @@
 Для начала работы с базой данных необходимо создать схему, которая будет отражать все данные.
 
 
-![erwin](https://user-images.githubusercontent.com/93879842/205499825-1c2e6916-0536-4d83-8d5e-4e69ba5aa6dc.jpg)
+![image](https://user-images.githubusercontent.com/93879842/205501030-3209987f-ca6c-4305-b176-8ba0c70a2e8e.png)
 
 
 
